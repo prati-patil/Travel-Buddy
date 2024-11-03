@@ -1,6 +1,15 @@
+# Travel Buddy ![TB_logo](https://github.com/SiddheshSonar/Travel-Buddy_Recur/blob/52b86f36f1444a33f69dbf67ce97e62efdef9eac/client/src/assets/logo-hck.svg)
 
 Travel Buddy is an innovative travel planner that integrates image recognition, natural language processing, and text-to-speech capabilities to provide users with personalized information and recommendations about travel destinations. With Travel Buddy, users can effortlessly explore new places, ask questions, and receive spoken responses, making trip planning more interactive and enjoyable.
 
+## Preview
+Watch the whole demo [here](https://drive.google.com/file/d/1E1nYGoL79EdYI3O9lFckhY9hmmFvW3Ib/view?usp=sharing)
+
+![image](https://github.com/SiddheshSonar/Travel-Buddy_Recur/assets/100956337/0be382ce-11d0-464b-8c0a-1b8cc0a97378)
+
+![image](https://github.com/SiddheshSonar/Travel-Buddy_Recur/assets/100956337/bab5e991-29ba-4cae-9a47-258826dc0033)
+
+![image](https://github.com/SiddheshSonar/Travel-Buddy_Recur/assets/100956337/5c96a226-867c-4934-8106-8f5861186833)
 
 
 ## Features

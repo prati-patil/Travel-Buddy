@@ -24,7 +24,7 @@ os.environ["HUGGINGFACEHUB_API_TOKEN"] = get_key(key_to_get="HUGGINGFACEHUB_API_
 
 # app.config["MONGO_URI"] = "mongodb+srv://sonarsiddhesh105:K5NuO27RwuV2R986@cluster0.0aedb3y.mongodb.net/"
 # mongo = PyMongo(app)
-client = MongoClient("mongodb://localhost:27017/pratiksha")
+client = MongoClient("mongodb+srv://sonarsiddhesh105:K5NuO27RwuV2R986@cluster0.0aedb3y.mongodb.net/")
 db = client["test"]
 mongo = db["recur-users"]
 
@@ -34,6 +34,7 @@ llm = HuggingFaceHub(
     model_kwargs={
         "max_new_tokens": 512,
         "top_k": 30,
+        "temperature": 0.6,
         "repetition_penalty": 1.03,
     },
 )
@@ -139,7 +140,7 @@ def chat():
 def classify_image():
     try:
         url = "https://picarta.ai/classify"
-        api_token = "X849INP2CC94K7TX2HAV"
+        api_token = "08CPS63DU3BANXP5EBC8"
         headers = {"Content-Type": "application/json"}
 
         # Read the image from a local file
